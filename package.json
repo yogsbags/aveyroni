@@ -1,0 +1,15 @@
+{
+  "name": "aveyroni-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aveyroni Partners marketing website — static site served via serve.",
+  "scripts": {
+    "start": "serve -s . -l $PORT"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
