@@ -4,7 +4,7 @@
   "private": true,
   "description": "Aveyroni Partners marketing website — static site served via serve.",
   "scripts": {
-    "start": "serve -s . -l $PORT"
+    "start": "serve . -l $PORT"
   },
   "engines": {
     "node": ">=18"
